@@ -1,0 +1,486 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>بن ربعي القابضة | Bin Rabie Holding Group</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Cairo:wght@300;400;500;600;700;800;900&family=Poppins:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+</head>
+<body>
+    <!-- Scroll Progress Bar -->
+    <div class="scroll-progress" id="scrollProgress"></div>
+    <!-- Mouse Glow -->
+    <div class="mouse-glow" id="mouseGlow"></div>
+    <!-- Noise Overlay -->
+    <div class="noise-overlay"></div>
+    <!-- Loader / Intro Cinema -->
+    <div class="loader" id="loader">
+        <img src="images/logo.png" alt="Bin Rabie" class="loader-logo-img" id="loaderLogo">
+        <div class="loader-cinema-text" id="loaderText"></div>
+    </div>
+
+    <!-- Navbar -->
+    <nav class="navbar" id="navbar">
+        <div class="container nav-container">
+            <a href="#hero" class="logo"><img src="images/logo.png" alt="Bin Rabie" class="logo-img"><div><span class="logo-ar">بن ربعي القابضة</span><span class="logo-en">Bin Rabie Holding</span></div></a>
+            <ul class="nav-links" id="navLinks">
+                <li><a href="#hero" class="active" data-ar="الرئيسية" data-en="Home">الرئيسية</a></li>
+                <li><a href="#about" data-ar="من نحن" data-en="About">من نحن</a></li>
+                <li><a href="#vision" data-ar="رؤيتنا" data-en="Vision">رؤيتنا</a></li>
+                <li><a href="#leadership" data-ar="القيادة" data-en="Leadership">القيادة</a></li>
+                <li><a href="#companies" data-ar="شركاتنا" data-en="Companies">شركاتنا</a></li>
+                <li><a href="#partners" data-ar="شركاء النجاح" data-en="Partners">شركاء النجاح</a></li>
+                <li><a href="#contact" data-ar="تواصل معنا" data-en="Contact">تواصل معنا</a></li>
+            </ul>
+            <div class="nav-actions">
+                <button class="lang-btn" id="langBtn">EN</button>
+                <button class="menu-btn" id="menuBtn"><span></span><span></span><span></span></button>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero - Cover Page (p1) -->
+    <section class="hero" id="hero">
+        <div class="hero-bg" style="background-image:url('images/allpages/p01.png')"></div>
+        <div class="hero-dark"></div>
+        <div class="hero-mesh"></div>
+        <div class="hero-particles" id="particles"></div>
+        <div class="hero-shapes">
+            <div class="geo-shape"></div>
+            <div class="geo-shape"></div>
+            <div class="geo-shape"></div>
+            <div class="geo-shape"></div>
+            <div class="geo-shape"></div>
+            <div class="geo-shape"></div>
+        </div>
+        <div class="container hero-content">
+            <div class="hero-badge" data-aos="fade-down"><span class="t-ar">الملف التعريفي</span><span class="t-en">Business Profile</span></div>
+            <h1 class="split-text"><span class="t-ar">مجموعة بن ربعي القابضة</span><span class="t-en">Bin Rabie Holding Group</span></h1>
+            <p class="hero-sub" data-aos="fade-up"><span class="t-ar">نطمح لمستقبل أفضل</span><span class="t-en">We Aspire for a Better Future</span></p>
+            <div class="hero-stats" data-aos="fade-up">
+                <div class="hstat"><span class="hstat-num" data-count="11">0</span><span class="t-ar">شركة تابعة</span><span class="t-en">Subsidiaries</span></div>
+                <div class="hstat"><span class="hstat-num" data-count="7">0</span><span class="t-ar">قطاعات</span><span class="t-en">Sectors</span></div>
+                <div class="hstat"><span class="hstat-num" data-count="500">0</span><span class="hstat-plus">+</span><span class="t-ar">موظف</span><span class="t-en">Employees</span></div>
+            </div>
+            <a href="#companies" class="hero-cta" data-aos="fade-up"><span class="t-ar">استكشف شركاتنا</span><span class="t-en">Explore Our Companies</span><i class="fas fa-arrow-down"></i></a>
+        </div>
+        <div class="scroll-down"><div class="mouse"><div class="wheel"></div></div></div>
+    </section>
+
+    <!-- About - (p3,p4) -->
+    <section class="sec" id="about">
+        <div class="sec-bg" style="background-image:url('images/allpages/p03.png')"></div>
+        <div class="sec-overlay"></div>
+        <div class="container sec-content">
+            <div class="sec-head" data-aos="fade-up">
+                <span class="sec-tag"><span class="t-ar">من نحن</span><span class="t-en">About Us</span></span>
+                <h2><span class="t-ar">مجموعة بن ربعي القابضة</span><span class="t-en">Bin Rabie Holding Group</span></h2>
+            </div>
+            <div class="about-wrap" data-aos="fade-up">
+                <p class="t-ar">مجموعة بن ربعي القابضة هي مجموعة سعودية رائدة تضم 11 شركة متخصصة تعمل في قطاعات متنوعة تشمل النقل والخدمات اللوجستية، المقاولات والبناء، الضيافة والفندقة، السفر والسياحة، الاستشارات الهندسية، تكنولوجيا المعلومات، وخدمات الأعمال المتكاملة. تسعى المجموعة لتحقيق التميز والريادة في جميع قطاعاتها تماشياً مع رؤية المملكة 2030.</p>
+                <p class="t-en">Bin Rabie Holding Group is a leading Saudi group comprising 11 specialized companies across diverse sectors including transportation & logistics, construction, hospitality, travel & tourism, engineering consulting, information technology, and integrated business services. The group strives for excellence aligned with the Kingdom's Vision 2030.</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Vision, Mission, Goals (p4) -->
+    <section class="sec sec-light" id="vision">
+        <div class="container">
+            <div class="sec-head" data-aos="fade-up">
+                <span class="sec-tag"><span class="t-ar">رؤيتنا ورسالتنا</span><span class="t-en">Vision & Mission</span></span>
+                <h2><span class="t-ar">نطمح لمستقبل أفضل</span><span class="t-en">We Aspire for a Better Future</span></h2>
+            </div>
+            <div class="vmg-grid">
+                <div class="vmg-card" data-aos="fade-up">
+                    <div class="vmg-icon"><i class="fas fa-eye"></i></div>
+                    <h3><span class="t-ar">الرؤية</span><span class="t-en">Vision</span></h3>
+                    <p class="t-ar">نطمح لأن تكون مجموعة شركاتنا من الشركات الرائدة في المجالات المختلفة. ولا نطمح فحسب، ولكن نعمل على جعل هذه الرؤية واقعاً ملموساً ضمن إطار الرؤية الشاملة للمملكة العربية السعودية.</p>
+                    <p class="t-en">We aspire for our group of companies to be among the leading companies in various fields. We work to make this vision a tangible reality within the framework of the Kingdom of Saudi Arabia's comprehensive vision.</p>
+                </div>
+                <div class="vmg-card" data-aos="fade-up" data-aos-delay="100">
+                    <div class="vmg-icon"><i class="fas fa-bullseye"></i></div>
+                    <h3><span class="t-ar">الرسالة</span><span class="t-en">Mission</span></h3>
+                    <p class="t-ar">العمل على تحقيق رؤية مملكتنا العربية السعودية في التطور والتقدم. النهوض نحو المستقبل. رسالتنا وما نطمح لتحقيقه من خلال فريق عمل مؤهل وتقنيات حديثة.</p>
+                    <p class="t-en">Working to achieve the vision of the Kingdom of Saudi Arabia for development and progress. Advancing towards the future through qualified teams and modern technologies.</p>
+                </div>
+                <div class="vmg-card" data-aos="fade-up" data-aos-delay="200">
+                    <div class="vmg-icon"><i class="fas fa-flag"></i></div>
+                    <h3><span class="t-ar">الأهداف</span><span class="t-en">Goals</span></h3>
+                    <ul class="goals">
+                        <li><span class="t-ar">تقديم خدمات نقل وشحن متقدمة محلياً ودولياً</span><span class="t-en">Advanced transport and shipping services locally and internationally</span></li>
+                        <li><span class="t-ar">توفير حلول تخزين مرنة تلبي احتياجات جميع القطاعات</span><span class="t-en">Flexible storage solutions for all sectors</span></li>
+                        <li><span class="t-ar">تأجير سيارات بأسعار تنافسية وخيارات فاخرة</span><span class="t-en">Competitive car rental with luxury options</span></li>
+                        <li><span class="t-ar">تحقيق الاستدامة في النقل والتوصيل المبرد</span><span class="t-en">Sustainability in refrigerated transport and delivery</span></li>
+                        <li><span class="t-ar">دعم رواد الأعمال بالتكنولوجيا والحلول الرقمية</span><span class="t-en">Supporting entrepreneurs with technology and digital solutions</span></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Leadership (p5,p6,p7,p8,p9) -->
+    <section class="sec" id="leadership">
+        <div class="sec-bg" style="background-image:url('images/allpages/p05.png');opacity:0.08"></div>
+        <div class="container sec-content">
+            <div class="sec-head" data-aos="fade-up">
+                <span class="sec-tag"><span class="t-ar">القيادة</span><span class="t-en">Leadership</span></span>
+                <h2><span class="t-ar">مجلس الإدارة والقيادة التنفيذية</span><span class="t-en">Board of Directors & Executive Leadership</span></h2>
+            </div>
+
+            <!-- Org Chart Tree -->
+            <div class="org-tree" data-aos="fade-up">
+
+                <!-- Level 1: Chairman -->
+                <div class="org-level">
+                    <div class="org-nodes">
+                        <div class="org-node org-chairman" onclick="openModal('chairman')">
+                            <div class="org-avatar"><img src="images/sami.jpg" alt="سامي العتيبي"></div>
+                            <div class="org-info">
+                                <h4><span class="t-ar">سامي العتيبي</span><span class="t-en">Sami Al-Otaibi</span></h4>
+                                <span class="org-role"><span class="t-ar">رئيس مجلس الإدارة</span><span class="t-en">Chairman</span></span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Connector: 1 to many -->
+                <div class="org-connector org-connector-down"></div>
+
+                <!-- Level 2: Vice + Members -->
+                <div class="org-level">
+                    <div class="org-nodes">
+                        <div class="org-node" onclick="openModal('member1')">
+                            <div class="org-avatar"><img src="images/abdullah.jpg" alt="عبدالله العصيمي"></div>
+                            <div class="org-info">
+                                <h4><span class="t-ar">عبدالله العصيمي</span><span class="t-en">Abdullah Al-Osaimi</span></h4>
+                                <span class="org-role"><span class="t-ar">نائب رئيس مجلس الإدارة</span><span class="t-en">Vice Chairman</span></span>
+                            </div>
+                        </div>
+                        <div class="org-node" onclick="openModal('member2')">
+                            <div class="org-avatar"><img src="images/badr.jpg" alt="بدر العصيمي"></div>
+                            <div class="org-info">
+                                <h4><span class="t-ar">بدر العصيمي</span><span class="t-en">Badr Al-Osaimi</span></h4>
+                                <span class="org-role"><span class="t-ar">عضو مجلس الإدارة</span><span class="t-en">Board Member</span></span>
+                            </div>
+                        </div>
+                        <div class="org-node" onclick="openModal('member3')">
+                            <div class="org-avatar"><img src="images/abdulrahman.jpg" alt="عبدالرحمن شباب العتيبي"></div>
+                            <div class="org-info">
+                                <h4><span class="t-ar">عبدالرحمن شباب العتيبي</span><span class="t-en">Abdulrahman Shabab Al-Otaibi</span></h4>
+                                <span class="org-role"><span class="t-ar">عضو مجلس الإدارة</span><span class="t-en">Board Member</span></span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Connector -->
+                <div class="org-connector org-connector-down"></div>
+
+                <!-- Level 3: CEO -->
+                <div class="org-level">
+                    <div class="org-nodes">
+                        <div class="org-node org-ceo" onclick="openModal('ceo')">
+                            <div class="org-avatar"><img src="images/ceo.jpg" alt="ياسر جمال"></div>
+                            <div class="org-info">
+                                <h4><span class="t-ar">ياسر جمال</span><span class="t-en">Yasser Jamal</span></h4>
+                                <span class="org-role org-role-ceo"><span class="t-ar">المدير التنفيذي</span><span class="t-en">CEO</span></span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Connector -->
+                <div class="org-connector org-connector-down"></div>
+
+                <!-- Level 4: Management -->
+                <div class="org-level org-level-mgmt">
+                    <div class="org-nodes">
+                        <div class="org-node org-mgmt" onclick="openModal('operations')">
+                            <div class="org-avatar"><img src="images/shadi.jpg" alt="شادي صبري"></div>
+                            <div class="org-info">
+                                <h4><span class="t-ar">شادي صبري</span><span class="t-en">Shady Sabry</span></h4>
+                                <span class="org-role org-role-mgmt"><span class="t-ar">مدير إدارة التشغيل</span><span class="t-en">Operations</span></span>
+                            </div>
+                        </div>
+                        <div class="org-node org-mgmt" onclick="openModal('accounts')">
+                            <div class="org-avatar"><img src="images/montaser.jpg" alt="المنتصر"></div>
+                            <div class="org-info">
+                                <h4><span class="t-ar">المنتصر</span><span class="t-en">Almontsr</span></h4>
+                                <span class="org-role org-role-mgmt"><span class="t-ar">مدير إدارة الحسابات</span><span class="t-en">Accounts</span></span>
+                            </div>
+                        </div>
+                        <div class="org-node org-mgmt" onclick="openModal('itm')">
+                            <div class="org-avatar"><img src="images/ahmed.jpg" alt="أحمد العشري"></div>
+                            <div class="org-info">
+                                <h4><span class="t-ar">أحمد العشري</span><span class="t-en">Ahmed El-Ashry</span></h4>
+                                <span class="org-role org-role-mgmt"><span class="t-ar">مدير قسم تقنية المعلومات</span><span class="t-en">IT</span></span>
+                            </div>
+                        </div>
+                        <div class="org-node org-mgmt" onclick="openModal('hr')">
+                            <div class="org-avatar"><img src="images/eltory.jpg" alt="أحمد الطوري"></div>
+                            <div class="org-info">
+                                <h4><span class="t-ar">أحمد الطوري</span><span class="t-en">Ahmed Eltory</span></h4>
+                                <span class="org-role org-role-mgmt"><span class="t-ar">مدير الموارد البشرية</span><span class="t-en">HR</span></span>
+                            </div>
+                        </div>
+                        <div class="org-node org-mgmt" onclick="openModal('parcels')">
+                            <div class="org-avatar"><img src="images/tark.jpg" alt="طارق محمد أحمد"></div>
+                            <div class="org-info">
+                                <h4><span class="t-ar">طارق محمد أحمد</span><span class="t-en">Tarek Mohamed</span></h4>
+                                <span class="org-role org-role-mgmt"><span class="t-ar">مدير قسم الطرود</span><span class="t-en">Parcels</span></span>
+                            </div>
+                        </div>
+                        <div class="org-node org-mgmt" onclick="openModal('qader')">
+                            <div class="org-avatar"><img src="images/nasheeli.jpg" alt="أحمد النشيلي"></div>
+                            <div class="org-info">
+                                <h4><span class="t-ar">أحمد النشيلي</span><span class="t-en">Ahmed Al-Nasheeli</span></h4>
+                                <span class="org-role org-role-mgmt"><span class="t-ar">مدير إدارة قادر</span><span class="t-en">Qader</span></span>
+                            </div>
+                        </div>
+                        <div class="org-node org-mgmt" onclick="openModal('apps')">
+                            <div class="org-avatar"><img src="images/eyas.jpg" alt="إياس أنور"></div>
+                            <div class="org-info">
+                                <h4><span class="t-ar">إياس أنور</span><span class="t-en">Eyas Anwar</span></h4>
+                                <span class="org-role org-role-mgmt"><span class="t-ar">مدير تشغيل التطبيقات</span><span class="t-en">Apps</span></span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <!-- Companies (p10-p73) -->
+    <section class="sec sec-dark" id="companies">
+        <div class="container">
+            <div class="sec-head" data-aos="fade-up">
+                <span class="sec-tag"><span class="t-ar">شركاتنا</span><span class="t-en">Our Companies</span></span>
+                <h2><span class="t-ar">الشركات التابعة</span><span class="t-en">Our Subsidiaries</span></h2>
+                <p class="sec-desc"><span class="t-ar">اضغط على أي شركة لمعرفة التفاصيل والمدير والخدمات</span><span class="t-en">Click any company for details, director, and services</span></p>
+            </div>
+
+            <div class="filter-bar" data-aos="fade-up">
+                <button class="fbtn active" data-f="all"><span class="t-ar">الكل</span><span class="t-en">All</span></button>
+                <button class="fbtn" data-f="logistics"><span class="t-ar">النقل واللوجستيات</span><span class="t-en">Transport</span></button>
+                <button class="fbtn" data-f="construction"><span class="t-ar">المقاولات</span><span class="t-en">Construction</span></button>
+                <button class="fbtn" data-f="hospitality"><span class="t-ar">الضيافة والسياحة</span><span class="t-en">Hospitality</span></button>
+                <button class="fbtn" data-f="services"><span class="t-ar">الخدمات</span><span class="t-en">Services</span></button>
+                <button class="fbtn" data-f="tech"><span class="t-ar">التكنولوجيا</span><span class="t-en">Technology</span></button>
+            </div>
+
+            <div class="co-grid">
+                <!-- 1. TCO Logistics -->
+                <div class="co-card" data-cat="logistics" data-aos="fade-up" onclick="openModal('tco')">
+                    <div class="co-bg" style="background-image:url('images/allpages/p15.png')"></div>
+                    <div class="co-overlay"></div>
+                    <div class="co-body">
+                        <div class="co-num">01</div>
+                        <i class="fas fa-ship co-icon"></i>
+                        <h3><span class="t-ar">TCO للخدمات اللوجستية</span><span class="t-en">TCO Logistics Services</span></h3>
+                        <p><span class="t-ar">شحن دولي بحري وجوي وتخليص جمركي</span><span class="t-en">International sea & air freight, customs clearance</span></p>
+                        <span class="co-more"><i class="fas fa-arrow-left"></i></span>
+                    </div>
+                </div>
+                <!-- 2. Bin Rabie Transport -->
+                <div class="co-card" data-cat="logistics" data-aos="fade-up" onclick="openModal('transport')">
+                    <div class="co-bg" style="background-image:url('images/allpages/p20.png')"></div>
+                    <div class="co-overlay"></div>
+                    <div class="co-body">
+                        <div class="co-num">02</div>
+                        <i class="fas fa-truck co-icon"></i>
+                        <h3><span class="t-ar">بن ربعي للنقليات</span><span class="t-en">Bin Rabie Transportation</span></h3>
+                        <p><span class="t-ar">نقل بري آمن وسريع وموثق لجميع أنحاء المملكة</span><span class="t-en">Safe, fast land transport across the Kingdom</span></p>
+                        <span class="co-more"><i class="fas fa-arrow-left"></i></span>
+                    </div>
+                </div>
+                <!-- 3. Tard Storage -->
+                <div class="co-card" data-cat="logistics" data-aos="fade-up" onclick="openModal('tard')">
+                    <div class="co-bg" style="background-image:url('images/allpages/p29.png')"></div>
+                    <div class="co-overlay"></div>
+                    <div class="co-body">
+                        <div class="co-num">03</div>
+                        <i class="fas fa-warehouse co-icon"></i>
+                        <h3><span class="t-ar">شركة طرد للتخزين والطرود</span><span class="t-en">Tard Storage & Parcels</span></h3>
+                        <p><span class="t-ar">حلول تخزين متطورة وخدمات طرود سريعة</span><span class="t-en">Advanced storage & fast parcel services</span></p>
+                        <span class="co-more"><i class="fas fa-arrow-left"></i></span>
+                    </div>
+                </div>
+                <!-- 4. Dom Car Rental -->
+                <div class="co-card" data-cat="logistics" data-aos="fade-up" onclick="openModal('dom')">
+                    <div class="co-bg" style="background-image:url('images/allpages/p36.png')"></div>
+                    <div class="co-overlay"></div>
+                    <div class="co-body">
+                        <div class="co-num">04</div>
+                        <i class="fas fa-car co-icon"></i>
+                        <h3><span class="t-ar">شركة دوم لتأجير السيارات</span><span class="t-en">Dom Car Rental</span></h3>
+                        <p><span class="t-ar">تأجير سيارات فاخرة واقتصادية بأسعار تنافسية</span><span class="t-en">Luxury & economy car rental at competitive prices</span></p>
+                        <span class="co-more"><i class="fas fa-arrow-left"></i></span>
+                    </div>
+                </div>
+                <!-- 5. Masar El-Arab / Limousine -->
+                <div class="co-card" data-cat="logistics" data-aos="fade-up" onclick="openModal('limo')">
+                    <div class="co-bg" style="background-image:url('images/allpages/p44.png')"></div>
+                    <div class="co-overlay"></div>
+                    <div class="co-body">
+                        <div class="co-num">05</div>
+                        <i class="fas fa-car-side co-icon"></i>
+                        <h3><span class="t-ar">مسار العرب للأجرة العامة</span><span class="t-en">Masar El-Arab Limousine</span></h3>
+                        <p><span class="t-ar">خدمات ليموزين فاخرة وأجرة عامة احترافية</span><span class="t-en">Premium limousine & public fare services</span></p>
+                        <span class="co-more"><i class="fas fa-arrow-left"></i></span>
+                    </div>
+                </div>
+                <!-- 6. Al-Rabie Engineering -->
+                <div class="co-card" data-cat="construction" data-aos="fade-up" onclick="openModal('engineering')">
+                    <div class="co-bg" style="background-image:url('images/allpages/p48.png')"></div>
+                    <div class="co-overlay"></div>
+                    <div class="co-body">
+                        <div class="co-num">06</div>
+                        <i class="fas fa-drafting-compass co-icon"></i>
+                        <h3><span class="t-ar">الربعي للاستشارات الهندسية</span><span class="t-en">Al-Rabie Engineering Consulting</span></h3>
+                        <p><span class="t-ar">تصميم معماري وإشراف هندسي واستشارات</span><span class="t-en">Architectural design, supervision & consulting</span></p>
+                        <span class="co-more"><i class="fas fa-arrow-left"></i></span>
+                    </div>
+                </div>
+                <!-- 7. Gulf Contractors -->
+                <div class="co-card" data-cat="construction" data-aos="fade-up" onclick="openModal('contractors')">
+                    <div class="co-bg" style="background-image:url('images/allpages/p52.png')"></div>
+                    <div class="co-overlay"></div>
+                    <div class="co-body">
+                        <div class="co-num">07</div>
+                        <i class="fas fa-helmet-safety co-icon"></i>
+                        <h3><span class="t-ar">مقاولو الخليج للمقاولات</span><span class="t-en">Gulf Contractors</span></h3>
+                        <p><span class="t-ar">مقاولات عامة وتشييد مباني وبنية تحتية</span><span class="t-en">General contracting & infrastructure</span></p>
+                        <span class="co-more"><i class="fas fa-arrow-left"></i></span>
+                    </div>
+                </div>
+                <!-- 8. Al Hamad Hotels -->
+                <div class="co-card" data-cat="hospitality" data-aos="fade-up" onclick="openModal('hotel')">
+                    <div class="co-bg" style="background-image:url('images/allpages/p58.png')"></div>
+                    <div class="co-overlay"></div>
+                    <div class="co-body">
+                        <div class="co-num">08</div>
+                        <i class="fas fa-hotel co-icon"></i>
+                        <h3><span class="t-ar">الحمد لإدارة الفنادق والتطوير العقاري</span><span class="t-en">Al Hamad Hotels & Real Estate</span></h3>
+                        <p><span class="t-ar">إدارة فنادق فاخرة وتطوير مشاريع عقارية</span><span class="t-en">Luxury hotel management & real estate</span></p>
+                        <span class="co-more"><i class="fas fa-arrow-left"></i></span>
+                    </div>
+                </div>
+                <!-- 9. Travel & Tourism -->
+                <div class="co-card" data-cat="hospitality" data-aos="fade-up" onclick="openModal('travel')">
+                    <div class="co-bg" style="background-image:url('images/allpages/p64.png')"></div>
+                    <div class="co-overlay"></div>
+                    <div class="co-body">
+                        <div class="co-num">09</div>
+                        <i class="fas fa-plane co-icon"></i>
+                        <h3><span class="t-ar">بن ربعي للسفر والسياحة</span><span class="t-en">Bin Rabie Travel & Tourism</span></h3>
+                        <p><span class="t-ar">حجوزات طيران وفنادق وبرامج سياحية</span><span class="t-en">Flights, hotels & tour programs</span></p>
+                        <span class="co-more"><i class="fas fa-arrow-left"></i></span>
+                    </div>
+                </div>
+                <!-- 10. Integrated Business -->
+                <div class="co-card" data-cat="services" data-aos="fade-up" onclick="openModal('business')">
+                    <div class="co-bg" style="background-image:url('images/allpages/p68.png')"></div>
+                    <div class="co-overlay"></div>
+                    <div class="co-body">
+                        <div class="co-num">10</div>
+                        <i class="fas fa-briefcase co-icon"></i>
+                        <h3><span class="t-ar">بن ربعي لخدمات الأعمال المتكاملة</span><span class="t-en">Bin Rabie Business Services</span></h3>
+                        <p><span class="t-ar">استشارات مالية وبرمجيات ودورات تدريبية</span><span class="t-en">Financial consulting, software & training</span></p>
+                        <span class="co-more"><i class="fas fa-arrow-left"></i></span>
+                    </div>
+                </div>
+                <!-- 11. Restaurant Delivery -->
+                <div class="co-card" data-cat="services" data-aos="fade-up" onclick="openModal('delivery')">
+                    <div class="co-bg" style="background-image:url('images/allpages/p72.png')"></div>
+                    <div class="co-overlay"></div>
+                    <div class="co-body">
+                        <div class="co-num">11</div>
+                        <i class="fas fa-utensils co-icon"></i>
+                        <h3><span class="t-ar">بن ربعي لتوصيل المطاعم</span><span class="t-en">Bin Rabie Delivery</span></h3>
+                        <p><span class="t-ar">توصيل طلبات مطاعم سريع مع تغطية واسعة</span><span class="t-en">Fast restaurant delivery with wide coverage</span></p>
+                        <span class="co-more"><i class="fas fa-arrow-left"></i></span>
+                    </div>
+                </div>
+                <!-- 12. IT Department (NEW) -->
+                <div class="co-card" data-cat="tech" data-aos="fade-up" onclick="openModal('it')">
+                    <div class="co-bg" style="background-image:url('images/it-bg.jpg')"></div>
+                    <div class="co-overlay" style="background:linear-gradient(to top,rgba(10,22,40,.9) 0%,rgba(52,152,219,.2) 50%,rgba(10,22,40,.5) 100%)"></div>
+                    <div class="co-body">
+                        <div class="co-num">IT</div>
+                        <i class="fas fa-laptop-code co-icon" style="color:#3498db"></i>
+                        <h3><span class="t-ar">قسم تكنولوجيا المعلومات</span><span class="t-en">IT Department</span></h3>
+                        <p><span class="t-ar">حلول تقنية وبرمجية متكاملة وتحول رقمي</span><span class="t-en">Integrated tech solutions & digital transformation</span></p>
+                        <span class="co-more"><i class="fas fa-arrow-left"></i></span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Partners (p74) -->
+    <section class="sec sec-light" id="partners">
+        <div class="container">
+            <div class="sec-head" data-aos="fade-up">
+                <span class="sec-tag"><span class="t-ar">شركاء النجاح</span><span class="t-en">Success Partners</span></span>
+                <h2><span class="t-ar">عملاؤنا وشركاؤنا</span><span class="t-en">Our Clients & Partners</span></h2>
+            </div>
+            <div class="partners-img" data-aos="fade-up">
+                <img src="images/allpages/p74.png" alt="Partners">
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact (p75) -->
+    <section class="sec" id="contact">
+        <div class="container">
+            <div class="sec-head" data-aos="fade-up">
+                <span class="sec-tag"><span class="t-ar">تواصل معنا</span><span class="t-en">Contact Us</span></span>
+                <h2><span class="t-ar">نسعد بتواصلكم</span><span class="t-en">We'd Love to Hear From You</span></h2>
+            </div>
+            <div class="contact-grid">
+                <div class="contact-info" data-aos="fade-up">
+                    <div class="ci"><div class="ci-icon"><i class="fas fa-phone-alt"></i></div><div><h4><span class="t-ar">اتصل بنا</span><span class="t-en">Call Us</span></h4><p dir="ltr">+966 56 195 0581</p></div></div>
+                    <div class="ci"><div class="ci-icon"><i class="fas fa-envelope"></i></div><div><h4><span class="t-ar">البريد الإلكتروني</span><span class="t-en">Email</span></h4><p>info@binrabie.sa</p></div></div>
+                    <div class="ci"><div class="ci-icon"><i class="fas fa-map-marker-alt"></i></div><div><h4><span class="t-ar">العنوان</span><span class="t-en">Address</span></h4><p><span class="t-ar">المملكة العربية السعودية - جدة</span><span class="t-en">Kingdom of Saudi Arabia - Jeddah</span></p></div></div>
+                    <div class="socials"><a href="#"><i class="fab fa-linkedin-in"></i></a><a href="#"><i class="fab fa-x-twitter"></i></a><a href="#"><i class="fab fa-instagram"></i></a></div>
+                </div>
+                <form class="contact-form" id="contactForm" data-aos="fade-up">
+                    <input type="text" placeholder=" " required><label><span class="t-ar">الاسم</span><span class="t-en">Name</span></label>
+                    <input type="email" placeholder=" " required><label><span class="t-ar">البريد</span><span class="t-en">Email</span></label>
+                    <input type="tel" placeholder=" " dir="ltr"><label><span class="t-ar">الجوال</span><span class="t-en">Phone</span></label>
+                    <textarea placeholder=" " rows="4" required></textarea><label><span class="t-ar">رسالتك</span><span class="t-en">Message</span></label>
+                    <button type="submit" class="submit-btn"><span class="t-ar">إرسال</span><span class="t-en">Send</span><i class="fas fa-paper-plane"></i></button>
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-top">
+                <div><div class="f-logo"><span class="t-ar">بن ربعي <span>القابضة</span></span><span class="t-en">Bin Rabie <span>Holding</span></span></div><p><span class="t-ar">مجموعة سعودية رائدة تضم 11 شركة متخصصة</span><span class="t-en">A leading Saudi group with 11+ specialized companies</span></p></div>
+                <div class="f-links"><a href="#about"><span class="t-ar">من نحن</span><span class="t-en">About</span></a><a href="#vision"><span class="t-ar">رؤيتنا</span><span class="t-en">Vision</span></a><a href="#companies"><span class="t-ar">شركاتنا</span><span class="t-en">Companies</span></a><a href="#contact"><span class="t-ar">تواصل</span><span class="t-en">Contact</span></a></div>
+            </div>
+            <div class="footer-bot"><p><span class="t-ar">&copy; 2026 مجموعة بن ربعي القابضة. جميع الحقوق محفوظة.</span><span class="t-en">&copy; 2026 Bin Rabie Holding Group. All Rights Reserved.</span></p></div>
+        </div>
+    </footer>
+
+    <!-- Modal -->
+    <div class="modal-overlay" id="modalOverlay">
+        <div class="modal cv-modal" id="modal">
+            <button class="modal-close" onclick="closeModal()"><i class="fas fa-times"></i></button>
+            <div class="cv-content" id="modalBody"></div>
+        </div>
+    </div>
+
+    <button class="btt" id="btt"><i class="fas fa-chevron-up"></i></button>
+
+    <script src="script.js"></script>
+</body>
+</html>
