@@ -313,6 +313,7 @@ body.en .co-more i{transform:rotate(180deg)}
 .contact-form input:focus,.contact-form textarea:focus{border-color:var(--p);box-shadow:0 0 0 3px rgba(232,101,26,.1)}
 .contact-form textarea{resize:vertical;min-height:100px}
 .contact-form label{display:none}
+.contact-form input::placeholder,.contact-form textarea::placeholder{color:var(--txtd);opacity:.7;font-family:'Cairo',sans-serif}
 .submit-btn{background:var(--p);color:var(--w);border:0;padding:14px 32px;border-radius:50px;font-family:inherit;font-weight:700;font-size:1rem;cursor:pointer;transition:var(--tr);display:flex;align-items:center;justify-content:center;gap:10px}
 .submit-btn:hover{background:var(--pd);transform:translateY(-2px);box-shadow:0 12px 40px rgba(232,101,26,.3)}
 
@@ -367,6 +368,11 @@ body.en .cv-left{border-right:none;border-left:1px solid rgba(255,255,255,.06);b
 .cv-info-card h4{font-size:.75rem;font-weight:700;color:var(--p);text-transform:uppercase;letter-spacing:1.5px;margin-bottom:10px;display:flex;align-items:center;gap:8px}
 .cv-info-card h4 i{font-size:.7rem;opacity:.7}
 .cv-info-card p{color:var(--txtd);font-size:.88rem;line-height:1.8}
+
+/* CV Website Button */
+.cv-website-btn{display:flex;align-items:center;justify-content:center;gap:10px;width:100%;padding:14px 20px;background:linear-gradient(135deg,var(--p),var(--pd));color:var(--w);border:none;border-radius:14px;font-size:.95rem;font-weight:700;text-decoration:none;cursor:pointer;transition:all .3s ease;margin-bottom:14px;font-family:'Cairo',sans-serif}
+.cv-website-btn:hover{background:linear-gradient(135deg,var(--pl),var(--p));transform:translateY(-2px);box-shadow:0 8px 25px rgba(232,101,26,.35)}
+.cv-website-btn i{font-size:1.1rem}
 
 /* CV Stats Row */
 .cv-stats{display:flex;gap:12px;width:100%;margin-bottom:14px}
