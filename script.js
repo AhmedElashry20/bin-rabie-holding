@@ -64,9 +64,9 @@ const modalData = {
     operations: {
         titleAr: 'مدير إدارة التشغيل',
         titleEn: 'Operations Manager',
-        nameAr: 'شادي صبري حسن',
-        nameEn: 'Shady Sabry Hassan',
-        img: 'images/shadi.jpg',
+        nameAr: 'إياس أنور',
+        nameEn: 'Eyas Anwar',
+        img: "images/eyas.jpg",
         bg: '',
         textAr: 'إدارة التشغيل هي المحرك الأساسي لأعمال مجموعة بن ربعي القابضة. نعمل على ضمان سير العمليات اليومية بكفاءة عالية وجودة متميزة عبر جميع قطاعات المجموعة. نسعى لتحسين العمليات التشغيلية باستمرار وتطبيق أفضل الممارسات لتحقيق أعلى مستويات الإنتاجية والأداء.',
         textEn: 'The Operations Department is the core engine of Bin Rabie Holding Group. We ensure daily operations run with high efficiency and quality across all group sectors. We continuously improve operational processes and apply best practices to achieve the highest levels of productivity and performance.',
@@ -87,13 +87,13 @@ const modalData = {
     },
     itm: {
         titleAr: 'مدير قسم تقنية المعلومات',
-        titleEn: 'IT Manager',
+        titleEn: 'CIO Manager',
         nameAr: 'أحمد العشري',
         nameEn: 'Ahmed El-Ashry',
         img: 'images/ahmed.jpg',
         bg: '',
         textAr: 'إدارة تكنولوجيا المعلومات هي الذراع التقني لمجموعة بن ربعي القابضة. نعمل على تطوير الحلول البرمجية المتكاملة، إدارة البنية التحتية التقنية، وقيادة مشاريع التحول الرقمي للمجموعة. نقدم حلولاً مبتكرة في مجال تطوير المواقع والتطبيقات، الأمن السيبراني، والحوسبة السحابية.',
-        textEn: 'The IT Department is the technological arm of Bin Rabie Holding Group. We develop integrated software solutions, manage technical infrastructure, and lead the group\'s digital transformation projects. We provide innovative solutions in web and app development, cybersecurity, and cloud computing.',
+        textEn: 'The CIO Department is the technological arm of Bin Rabie Holding Group. We develop integrated software solutions, manage technical infrastructure, and lead the group\'s digital transformation projects. We provide innovative solutions in web and app development, cybersecurity, and cloud computing.',
         servicesAr: ['تطوير مواقع وتطبيقات', 'الأمن السيبراني', 'الحوسبة السحابية', 'تحليل البيانات', 'التحول الرقمي', 'دعم تقني متكامل'],
         servicesEn: ['Web & App Development', 'Cybersecurity', 'Cloud Computing', 'Data Analytics', 'Digital Transformation', 'Full IT Support']
     },
@@ -125,9 +125,9 @@ const modalData = {
     qader: {
         titleAr: 'مدير إدارة قادر',
         titleEn: 'Qader Manager',
-        nameAr: 'أحمد النشيلي',
-        nameEn: 'Ahmed Al-Nasheeli',
-        img: 'images/nasheeli.jpg',
+        nameAr: 'محمد بن سعيد',
+        nameEn: 'Mohammed bin Saeed',
+        img: "images/MohamedBinSayed.jpeg",
         bg: '',
         textAr: 'إدارة قادر هي إحدى الإدارات المتخصصة في مجموعة بن ربعي القابضة. نسعى لتقديم خدمات متميزة وحلول مبتكرة تلبي احتياجات العملاء وتساهم في تحقيق أهداف المجموعة الاستراتيجية.',
         textEn: 'Qader Department is one of the specialized departments at Bin Rabie Holding Group. We strive to provide outstanding services and innovative solutions that meet customer needs and contribute to achieving the group\'s strategic goals.',
@@ -137,9 +137,8 @@ const modalData = {
     apps: {
         titleAr: 'مدير تشغيل التطبيقات',
         titleEn: 'Applications Operations Manager',
-        nameAr: 'إياس أنور',
-        nameEn: 'Eyas Anwar',
-        img: 'images/eyas.jpg',
+        nameAr: 'أيسن علي أحمد الدغيل',
+        nameEn: 'Asen Ali Ahmad Al-Dughail',
         bg: '',
         textAr: 'قسم تشغيل التطبيقات يتولى إدارة وتشغيل التطبيقات الرقمية لمجموعة بن ربعي القابضة. نعمل على ضمان استمرارية وكفاءة عمل جميع التطبيقات والمنصات الرقمية، مع التركيز على تحسين تجربة المستخدم وضمان أعلى مستويات الأداء والموثوقية.',
         textEn: 'The Applications Operations Department manages and operates digital applications for Bin Rabie Holding Group. We ensure continuity and efficiency of all applications and digital platforms, focusing on improving user experience and ensuring the highest levels of performance and reliability.',
@@ -147,12 +146,17 @@ const modalData = {
         servicesEn: ['Application Operations', 'Digital Platform Management', 'User Experience', 'Technical Support', 'Performance Monitoring', 'System Updates']
     },
 
+
+
+
+  
     // === Companies ===
     tco: {
         titleAr: 'TCO للخدمات اللوجستية',
         titleEn: 'TCO Logistics Services',
-        nameAr: 'أيسن علي أحمد الدغيل',
-        nameEn: 'Asen Ali Ahmad Al-Dughail',
+        nameAr: 'إياس أنور',
+        nameEn: 'Eyas Anwar',
+        img: 'images/eyas.jpg',
         roleTitleAr: 'المدير التنفيذي',
         roleTitleEn: 'Executive Director',
         bg: 'images/allpages/p15.png',
@@ -177,11 +181,11 @@ const modalData = {
     tard: {
         titleAr: 'شركة طرد للتخزين والطرود',
         titleEn: 'Tard Storage & Parcels',
-        nameAr: 'شادي حسن',
-        nameEn: 'Shadi Hassan',
+        nameAr: 'طارق محمد أحمد',
+        nameEn: 'Tarek Mohamed',
+        img : src='images/tark.jpg',
         roleTitleAr: 'المدير التنفيذي',
         roleTitleEn: 'Executive Director',
-        img: 'images/shadi.jpg',
         bg: 'images/allpages/p29.png',
         textAr: 'شركة طرد للتخزين والطرود تقدم حلول تخزين متطورة وخدمات طرود سريعة وموثوقة. تمتلك الشركة مستودعات حديثة ومجهزة بأنظمة إدارة متقدمة تضمن سلامة وأمان المخزون. كما توفر خدمات توصيل طرود سريعة تغطي جميع مناطق المملكة مع نظام تتبع متكامل يتيح للعملاء متابعة شحناتهم.',
         textEn: 'Tard Storage & Parcels provides advanced storage solutions and fast, reliable parcel services. The company owns modern warehouses equipped with advanced management systems ensuring inventory safety and security. It also provides fast parcel delivery services covering all regions of the Kingdom with an integrated tracking system.',
@@ -206,6 +210,7 @@ const modalData = {
         titleEn: 'Masar El-Arab Limousine',
         nameAr: 'إدارة الشركة',
         nameEn: 'Company Management',
+        img: src='images/MohamedBinSayed.jpeg',
         roleTitleAr: 'الإدارة العامة',
         roleTitleEn: 'General Management',
         bg: 'images/allpages/p44.png',
@@ -298,11 +303,11 @@ const modalData = {
         nameAr: 'م. أحمد مصطفى العشري',
         nameEn: 'Eng. Ahmed Mostafa El-Ashry',
         roleTitleAr: 'مدير قسم تكنولوجيا المعلومات',
-        roleTitleEn: 'IT Department Manager',
+        roleTitleEn: 'CIO Department Manager',
         img: 'images/ahmed.jpg',
         bg: 'images/it-bg.jpg',
         textAr: 'قسم تكنولوجيا المعلومات هو الذراع التقني لمجموعة بن ربعي القابضة. يعمل القسم على تطوير الحلول البرمجية المتكاملة، إدارة البنية التحتية التقنية، وقيادة مشاريع التحول الرقمي للمجموعة. نقدم حلولاً مبتكرة في مجال تطوير المواقع والتطبيقات، الأمن السيبراني، الحوسبة السحابية، وتحليل البيانات. نسعى لتحقيق التميز الرقمي ودعم جميع شركات المجموعة بأحدث التقنيات.',
-        textEn: 'The IT Department is the technological arm of Bin Rabie Holding Group. The department works on developing integrated software solutions, managing technical infrastructure, and leading the group\'s digital transformation projects. We provide innovative solutions in web and application development, cybersecurity, cloud computing, and data analytics. We strive for digital excellence and support all group companies with the latest technologies.',
+        textEn: 'The CIO Department is the technological arm of Bin Rabie Holding Group. The department works on developing integrated software solutions, managing technical infrastructure, and leading the group\'s digital transformation projects. We provide innovative solutions in web and application development, cybersecurity, cloud computing, and data analytics. We strive for digital excellence and support all group companies with the latest technologies.',
         servicesAr: ['تطوير مواقع وتطبيقات', 'الأمن السيبراني', 'الحوسبة السحابية', 'تحليل البيانات', 'التحول الرقمي', 'دعم تقني متكامل'],
         servicesEn: ['Web & App Development', 'Cybersecurity', 'Cloud Computing', 'Data Analytics', 'Digital Transformation', 'Full IT Support']
     }

@@ -651,6 +651,30 @@ body.en .btt{left:auto;right:24px}
     transition: transform .5s ease, opacity .5s ease;
     border-radius: 12px;
 }
+
+.whatsapp-float {
+    position: fixed;
+    bottom: 25px;
+    right: 25px;
+    background-color: #25D366;
+    color: #fff;
+    width: 55px;
+    height: 55px;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 28px;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.3);
+    z-index: 1000;
+    transition: transform 0.2s ease;
+}
+
+.whatsapp-float:hover {
+    transform: scale(1.1);
+    color: #fff;
+}
+
 .socials a:hover::after { transform: scale(2); opacity: 1 }
 
 /* Partners image parallax hover */
