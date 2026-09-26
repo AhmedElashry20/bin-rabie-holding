@@ -2,7 +2,7 @@
 *,*::before,*::after{margin:0;padding:0;box-sizing:border-box}
 html{scroll-behavior:smooth;scroll-padding-top:80px}
 body{font-family:'Cairo',sans-serif;color:var(--txt);background:var(--bg);overflow-x:hidden;line-height:1.8;position:relative}
-body::after{content:'';position:fixed;inset:0;z-index:-1;background:url('images/logo.png') no-repeat center center;background-size:min(70vw,70vh);opacity:.03;pointer-events:none}
+body::after{content:'';position:fixed;inset:0;z-index:-1;background:url('images/Nlogo.png') no-repeat center center;background-size:min(70vw,70vh);opacity:.03;pointer-events:none}
 body.en{direction:ltr;font-family:'Poppins','Cairo',sans-serif}
 a{text-decoration:none;color:inherit}ul{list-style:none}img{max-width:100%;display:block}
 .container{max-width:1200px;margin:0 auto;padding:0 24px}
